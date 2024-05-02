@@ -12,10 +12,6 @@ const Home = () => {
         <Link to='fe-mentor/qr-code' >
             <button >QrCode</button>
         </Link>
-
-        <Link to='fe-mentor/qr-code' >
-            <button >QrCode</button>
-        </Link>
     </div>
   )
 }
