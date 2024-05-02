@@ -1,0 +1,15 @@
+.home-container {
+    min-height: 500px;
+    min-width: 500px;
+    background-color: white;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.home-container button {
+    padding: 10px;
+}

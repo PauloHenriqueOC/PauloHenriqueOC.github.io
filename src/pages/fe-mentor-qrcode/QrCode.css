@@ -1,0 +1,38 @@
+.main-container {
+    height: 500px;
+    width: 320px;
+    background-color: #f2f2f2;
+    padding: 1rem;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.qr-image {
+    width: 288px;
+    height: 288px;
+    border-radius: 0.65rem;
+}
+
+.title-container {
+    margin-top: 1rem;
+    padding: 0 1rem;
+}
+
+.title-container h3 {
+    text-align: center;
+    color: #1F314F;
+}
+
+.text-container {
+    margin-top: 1rem;
+    padding: 0 1rem;
+}
+
+.text-container p {
+    font-size: 0.9rem;
+    text-align: center;
+    color: #7D889E;
+}
