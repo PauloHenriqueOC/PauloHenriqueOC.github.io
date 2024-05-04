@@ -8,6 +8,7 @@ import {
 } from "react-router-dom";
 import Home from "./pages/home/Home.jsx";
 import QrCode from "./pages/fe-mentor-qrcode/QrCode.jsx";
+import BlogCard from "./pages/fe-mentor-blog-card/BlogCard.jsx";
 
 const router = createHashRouter([
 	{
@@ -19,6 +20,11 @@ const router = createHashRouter([
 		path: "fe-mentor/qr-code",
 		element: <QrCode />,
 	},
+
+	{
+		path: 'fe-mentor/blog-card',
+		element: <BlogCard />
+	}
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(

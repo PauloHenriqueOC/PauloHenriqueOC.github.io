@@ -9,8 +9,8 @@ const Home = () => {
             <button >QrCode</button>
         </Link>
 
-        <Link to='fe-mentor/qr-code' >
-            <button >QrCode</button>
+        <Link to='fe-mentor/blog-card' >
+            <button >Blog Preview Card</button>
         </Link>
     </div>
   )

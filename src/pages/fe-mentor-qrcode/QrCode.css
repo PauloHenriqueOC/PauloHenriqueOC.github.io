@@ -1,3 +1,13 @@
+.root-qrcode-container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #D5E1EF;
+    font-family: "Outfit", Helvetica, sans-serif;
+}
+
 .main-container {
     height: 500px;
     width: 320px;
