@@ -1,6 +1,6 @@
 import "./BlogCard.css";
 
-import blogImg from "../../assets/illustration-article.svg"
+import blogImg from "../../assets/blog-preview/illustration-article.svg"
 import Content from "./components/Content";
 import Profile from "./components/Profile";
 

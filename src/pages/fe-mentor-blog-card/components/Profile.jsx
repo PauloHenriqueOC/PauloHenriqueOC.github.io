@@ -1,6 +1,6 @@
 import React from 'react'
 
-import profileImg from '../../../assets/image-avatar.webp'
+import profileImg from '../../../assets/blog-preview/image-avatar.webp'
 
 const Profile = () => {
   return (

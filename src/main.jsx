@@ -9,6 +9,7 @@ import {
 import Home from "./pages/home/Home.jsx";
 import QrCode from "./pages/fe-mentor-qrcode/QrCode.jsx";
 import BlogCard from "./pages/fe-mentor-blog-card/BlogCard.jsx";
+import SocialLinks from "./pages/fe-mentor-social-links/SocialLinks.jsx";
 
 const router = createHashRouter([
 	{
@@ -24,6 +25,11 @@ const router = createHashRouter([
 	{
 		path: 'fe-mentor/blog-card',
 		element: <BlogCard />
+	},
+
+	{
+		path: 'fe-mentor/soacial-links',
+		element: <SocialLinks />
 	}
 ]);
 

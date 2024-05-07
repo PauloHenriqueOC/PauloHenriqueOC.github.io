@@ -1,6 +1,6 @@
 import "./QrCode.css";
 
-import qrImg from "../../assets/image-qr-code.png";
+import qrImg from "../../assets/qr-code/image-qr-code.png";
 
 const QrCode = () => {
 	return (

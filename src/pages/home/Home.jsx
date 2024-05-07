@@ -12,6 +12,10 @@ const Home = () => {
         <Link to='fe-mentor/blog-card' >
             <button >Blog Preview Card</button>
         </Link>
+
+        <Link to='fe-mentor/soacial-links' >
+            <button >Social links profile</button>
+        </Link>
     </div>
   )
 }
