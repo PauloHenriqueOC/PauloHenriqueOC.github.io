@@ -68,6 +68,10 @@
     flex-direction: column;
 }
 
+.link-container ul {
+    list-style: none;
+}
+
 .link-container a {
     width: 100%;
     display: flex;

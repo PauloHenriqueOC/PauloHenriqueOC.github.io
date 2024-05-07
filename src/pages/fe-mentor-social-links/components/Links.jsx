@@ -3,9 +3,13 @@ import React from "react";
 const Links = ({ links }) => {
 	return (
 		<div className="link-container">
-			{links.map((linkObj) => (
-				<a href={linkObj.url}>{linkObj.name}</a>
-			))}
+			<ul>
+				{links.map((linkObj) => (
+					<li>
+						<a href={linkObj.url}>{linkObj.name}</a>
+					</li>
+				))}
+			</ul>
 		</div>
 	);
 };

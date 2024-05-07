@@ -28,11 +28,11 @@ function getSocial() {
 		location: "London, United Kingdom",
 		bio: '"Front-end developer and avid reader."',
 		links: [
-			{ name: "GitHub", url: "" },
-			{ name: "Frontend Mentor", url: "" },
-			{ name: "Linkedin", url: "" },
-			{ name: "Twitter", url: "" },
-			{ name: "Instagram", url: "" },
+			{ name: "GitHub", url: "#" },
+			{ name: "Frontend Mentor", url: "#" },
+			{ name: "Linkedin", url: "#" },
+			{ name: "Twitter", url: "#" },
+			{ name: "Instagram", url: "#" },
 		],
 	};
 }
