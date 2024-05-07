@@ -1,5 +1,5 @@
 import "./SocialLinks.css";
-
+import profileImg from "../../assets/social-links/avatar-jessica.jpeg"
 import CircleProfileImg from "./components/CircleProfileImg";
 import Links from "./components/Links";
 import NameLocation from "./components/NameLocation";
@@ -23,7 +23,7 @@ const SocialLinks = () => {
 { /* SImulates a object that contains all profile informations */}
 function getSocial() {
 	return {
-		photo: "/src/assets/social-links/avatar-jessica.jpeg",
+		photo: profileImg,
 		name: "Jessica Randall",
 		location: "London, United Kingdom",
 		bio: '"Front-end developer and avid reader."',
